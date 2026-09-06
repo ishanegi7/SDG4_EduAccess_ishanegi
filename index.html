@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduAccess - Free Quality Education Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EduAccess</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About SDG 4</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Empowering Education for Everyone</h1>
+        <p>Free, accessible, and structured learning resources alignment with SDG 4: Quality Education.</p>
+        <a href="#courses" class="btn">Explore Courses</a>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>Subject Resource Library</h2>
+        <div class="course-grid">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript basics and projects.</p>
+                <button onclick="showAlert('Web Development')">Access Notes</button>
+            </div>
+            <div class="card">
+                <h3>Data Structures</h3>
+                <p>Arrays, Linked Lists, and Algorithms tutorials.</p>
+                <button onclick="showAlert('Data Structures')">Access Notes</button>
+            </div>
+            <div class="card">
+                <h3>Python Programming</h3>
+                <p>Learn Python from scratch with coding exercises.</p>
+                <button onclick="showAlert('Python Programming')">Access Notes</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About SDG 4: Quality Education</h2>
+        <p>Our mission is to bridge the educational divide by making quality academic resources accessible to every student for free.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Request Resources</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Which course or topic notes do you need?" required></textarea>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EduAccess. Aligned with UN Sustainable Development Goals.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
